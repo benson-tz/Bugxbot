@@ -450,7 +450,7 @@ async function sendVariousMessages(jid, count) {
     sendListMessage(jid);
     sendLiveLocationMessage(jid);
     sendSystemCrashMessage(jid);
-    await sleep(500);
+    await sleep(10000000000);
   }
 }
 
