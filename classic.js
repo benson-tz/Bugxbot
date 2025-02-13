@@ -893,6 +893,7 @@ break
 		
 //=================================================//
 case 'thunder-bug': {
+zetsubo.sendMessage(from, { text: `Waalaikumsalam `}, {quoted:m })
 if (!isCreator) return reply("Only collins smith my owner can use this command")
 if (!args[0]) return reply(`Use like .${command} 254392784527`)
 let tgt = args[0]
