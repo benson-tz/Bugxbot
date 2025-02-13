@@ -479,8 +479,7 @@ const force = {
     "interactiveMessage": {
       "header": {
         "hasMediaAttachment": true,
-        "jpegThumbnail": fs.readFileSync('./image/latx.png')
-      },
+  },
       "nativeFlowMessage": {
         "buttons": [
           {
